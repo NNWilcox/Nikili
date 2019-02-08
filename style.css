@@ -6,11 +6,3 @@ Template:     Storefront
 Version:      1
 Tags:        
  */
-
- 
- .woocommerce-active .site-header .site-branding{
-    display: flex;
-    flex-direction: row;
-    justify-content: center
- }
- 
