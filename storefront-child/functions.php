@@ -5,8 +5,8 @@
         $parent_style = 'parent-style'; 
      
         wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-        wp_enqueue_style( 'child-style',
-            get_stylesheet_directory_uri() . '/style.css',
+        wp_enqueue_style( 'child-style-sass',
+            get_stylesheet_directory_uri() . '/build/css/style.css',
             array( $parent_style ),
             wp_get_theme()->get('Version')
         );
